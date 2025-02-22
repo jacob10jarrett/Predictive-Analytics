@@ -1,7 +1,7 @@
-#=====================================================
-# Homwork 5
-# Name: Jacob Jarrett
-#=====================================================
+#===========================================
+# Name: Jacob Jarrett 
+# Homework 5
+#===========================================
 
 # --- Slide 22: Load and Inspect the Chicago Dataset ---
 chicago <- read.csv("chicago.csv", stringsAsFactors = FALSE)

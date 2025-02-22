@@ -1,7 +1,6 @@
 #===========================================
-# Name:  Jacob Jarrett 
-#
-# Assignment 2 
+# Name: Jacob Jarrett 
+# Homework 2
 #===========================================
 
 
