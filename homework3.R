@@ -3,9 +3,9 @@
 # Homework 3
 #===========================================
 
-#------------------------------------------------------
+#===========================================
 # Topic 1 - Part 1 - Slide 1: mtcars Plotting
-#------------------------------------------------------
+#===========================================
 
 # (a) Assign the mtcars dataset to 'mydata'
 mydata <- mtcars
@@ -59,9 +59,9 @@ plot(mydata$mpg, mydata$hp,
 hp_model <- lm(hp ~ mpg, data = mydata)
 abline(hp_model, col = "darkgreen", lwd = 2)
 
-#------------------------------------------------------
+#===========================================
 # Topic 1 - Part 1 - Slide 2: iris Data Manipulation
-#------------------------------------------------------
+#===========================================
 
 cat("\n--- iris: Head, Tail, and Summary ---\n")
 head(iris)
@@ -89,9 +89,9 @@ mean_values  <- sapply(iris[, numeric_cols], mean)
 cat("\n--- Means of Numeric Variables in iris ---\n")
 print(mean_values)
 
-#------------------------------------------------------
+#===========================================
 # Topic 1 - Part 1 - Slide 3: Nested if...else (Age)
-#------------------------------------------------------
+#===========================================
 
 # 1. Prompt the user to enter their age and ensure it's numeric
 my.age <- as.integer(readline(prompt = "\nPlease Enter your Age: "))
@@ -116,9 +116,9 @@ if (my.age < 18) {
 
 cat("This Message is from Outside the Nested IF Else Statement\n")
 
-#------------------------------------------------------
+#===========================================
 # Topic 1 - Part 1 - Slide 4: if else() Apple Stocks
-#------------------------------------------------------
+#===========================================
 
 # 1. Apple stock prices
 apple <- c(109.49, 109.90, 109.11, 109.95, 111.03, 112.12)

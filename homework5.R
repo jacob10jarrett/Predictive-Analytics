@@ -3,7 +3,9 @@
 # Homework 5
 ##############################
 
+#===========================================
 ### === SLIDE 22: Chicago Dataset Analysis ===
+#===========================================
 
 # 1. Load the chicago_data into variable "Chicago" (capital “C” as required)
 Chicago <- read.csv("chicago.csv", stringsAsFactors = FALSE)
@@ -68,7 +70,9 @@ if(all(c("dptp", "o3means2", "no2mean2") %in% names(Chicago))){
 #   interact with pollutant levels.
 # ------------------------------------------------------------------------------
 
+#===========================================
 ### === SLIDES 25 & 26: EPA Ozone Dataset Analysis ===
+#===========================================
 
 library(data.table)
 # Load the EPA hourly ozone dataset 
@@ -106,7 +110,9 @@ head(ranking)
 # Answer: Yes, the code successfully loads and processes the dataset. 
 # ------------------------------------------------------------------------------
 
+#===========================================
 ### === SLIDE 42: Exploratory Data Analysis using ggplot2 ===
+#===========================================
 
 library(ggplot2)
 
@@ -161,7 +167,9 @@ p6 <- ggplot(mpg, aes(x = cty)) +
 print(p6)
 # Expected: A unimodal (or possibly skewed) distribution showing the frequency of different city mileage values.
 
+#===========================================
 ### === SLIDE 47: Drive Train and Fuel Economy Analysis ===
+#===========================================
 
 # Relationship between drive train and highway fuel economy.
 p7 <- ggplot(mpg, aes(x = drv, y = hwy)) +
@@ -193,7 +201,9 @@ print(p9)
 # Some classes (e.g., compact cars) typically have higher mileage compared to SUVs or trucks.
 # ------------------------------------------------------------------------------
 
+#===========================================
 ### === SLIDE 50: Facetting in ggplot2 ===
+#===========================================
 
 # 1. Facet by a continuous variable.
 p10 <- ggplot(mpg, aes(x = cty, y = hwy)) +
